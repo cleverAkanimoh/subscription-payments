@@ -3,8 +3,7 @@ import { Database } from '@/types_db';
 type Price = Database['public']['Tables']['prices']['Row'];
 
 export const getURL = () => {
-  let url =
-    process?.env?.NEXT_PUBLIC_SITE_URL;
+  let url = "https://subscription-payments-nine.vercel.app";
   // Make sure to include `https://` when not localhost.
   url = url.includes('http') ? url : `https://${url}`;
   // Make sure to including trailing `/`.
