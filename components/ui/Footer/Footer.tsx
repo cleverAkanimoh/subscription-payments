@@ -83,7 +83,7 @@ export default function Footer() {
           <div className="flex items-center h-10 space-x-6">
             <a
               aria-label="Github Repository"
-              href="https://github.com/vercel/nextjs-subscription-payments"
+              href="https://github.com/cleverAkanimoh/subscription-payments"
             >
               <GitHub />
             </a>
@@ -96,7 +96,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} ACME, Inc. All rights reserved.
           </span>
         </div>
-        <div className="flex items-center">
+        {/* <div className="flex items-center">
           <span className="text-white">Crafted by</span>
           <a href="https://vercel.com" aria-label="Vercel.com Link">
             <img
@@ -105,7 +105,7 @@ export default function Footer() {
               className="inline-block h-6 ml-4 text-white"
             />
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

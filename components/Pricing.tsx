@@ -262,16 +262,16 @@ export default function Pricing({
 function LogoCloud() {
   return (
     <div>
-      <p className="mt-24 text-xs uppercase text-zinc-400 text-center font-bold tracking-[0.3em]">
-        Brought to you by
+      <p className="mt-24 text-sm uppercase text-zinc-400 text-center font-bold tracking-[0.3em]">
+        Stacks used
       </p>
-      <div className="flex flex-col items-center my-12 space-y-4 sm:mt-8 sm:space-y-0 md:mx-auto md:max-w-2xl sm:grid sm:gap-6 sm:grid-cols-5">
+      <div className="flex flex-col items-center my-12 space-y-6 sm:mt-8 sm:space-y-0 md:mx-auto md:max-w-2xl sm:grid sm:gap-6 sm:grid-cols-5">
         <div className="flex items-center justify-start">
           <a href="https://nextjs.org" aria-label="Next.js Link">
             <img
               src="/nextjs.svg"
               alt="Next.js Logo"
-              className="h-12 text-white"
+              className="h-8 text-white"
             />
           </a>
         </div>
